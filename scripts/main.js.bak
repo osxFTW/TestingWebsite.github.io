@@ -1,0 +1,19 @@
+const myHeading = document.querySelector('h1');
+myHeading.textContent="Ce înseamnă League of Rage?";
+
+function multiply(num1,num2){
+	let result=num1*num2;
+	return result;
+}
+
+let angryKid = document.querySelector('img');
+
+angryKid.onclick = function() {
+	let mySrc = angryKid.getAttribute('src');
+	if(mySrc == 'images/bg-sus.png'){
+		angryKid.setAttribute('src','images/bg-change.png')
+	}else {
+		angryKid.setAttribute('src','images/bg-sus.png');
+	}
+}
+

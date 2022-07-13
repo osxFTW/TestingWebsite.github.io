@@ -1,0 +1,104 @@
+body{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.text1{
+	text-align: center;
+	color: white;
+	font-family: Noto Sans;
+	font-size: 30px;
+	height: 3vh;
+}
+
+.text2{
+	text-align: center;
+	color: white;
+	font-family: Noto Sans;
+	font-size: 25px;
+}
+
+.foottext{
+	color: red;
+	text-align: center;
+}
+
+.div-text{
+	width: 100vw;
+	height: 20vh;
+	text-align: center;
+	max-width: 100%;
+}
+
+.div-img{
+	width: auto;
+	height: 35vh;
+	text-align: center;
+	background-color: solid black;
+	max-width: 100%;
+}
+
+#image-bg{
+	width: 80vw;
+}
+
+.acasa{
+	color: white;
+	float: left;
+	width: 20%;
+	height: 5vh;
+}
+
+#acasa-img{
+	width: 15vw;
+}
+
+.despre{
+	color: white;
+	font-size: 25px;
+	float: left;
+	width: 55%;
+}
+
+#despre-img{
+	width: 15vw;
+}
+
+.contact{
+	color: white;
+	font-size:25px;
+	float: left;
+	width:24%;
+}
+
+#contact-img{
+	width: 15vw;
+}
+
+.div-nav{
+	padding: 3%;
+	color: white;
+	height: 6vh;
+	text-align: center;
+	font-family: Noto Sans;
+	background-color: solid black;
+	max-width: 100%;
+}
+
+.GeneratedMarquee {
+	line-height: 5em;
+	height: 9em;
+	
+
+}
+
+.foottext{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	right: 10px;
+}
+
+
+	

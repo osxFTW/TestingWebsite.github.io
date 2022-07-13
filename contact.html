@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> League of Rage </title>
+		<link href="styles/style.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+		<link rel="icon" href="images/lol-icon.png" type="images/lol-icon.png">
+	</head>
+	<body background="background-image2.png">
+	<header class="header">
+			<nav>
+			<div class="div-nav">
+				<div class="acasa"><a href="index.html" type="_blank"> <img id="acasa-img" src="images/acasa.png" alt="Imagine Acasa"></a></div>
+				<div class="despre"><a href="despre.html" type="_blank"> <img id="despre-img" src="images/despre.png" alt="Imagine Despre"></a></div>
+				<div class="contact"><a href="contact.html" type="_blank"> <img id="contact-img" src="images/contact.png" alt="Imagine Contact"></a></div>
+			</div>
+			</nav>
+	</header>
+	
+	<div class="continut_contact">
+		<font size="4">
+		Pentru orice nelămurire puteți completa formularul de mai jos cu o adresă de email validă
+		<p>sau ne puteți găsi la următoarele contacte:</p>
+		</font>
+		<ul>
+			<li> Tel: <u>+40742864323</u> </li>
+			<li> E-mail: <u>leagueofrage@lor.ro</u></li>
+			<li> Instagram: <u>league_of_rage</u></li>
+	</div>
+	
+	<form action="/my-handling-form-page" method="post">
+		<ul>
+			<li>
+				<label for="name">Nume: </label>
+				<input type="text" id="name" name="user_name">
+			</li>
+			<li>
+				<label for="mail">E-mail: </label>
+				<input type="email" id="email" name="user_email">
+			</li>
+			<li>
+				<label for="msg"> Mesajul tău: </label>
+				<textarea id="msg" name="user_message"></textarea>
+			</li>
+			<li class="button_contact">
+				<button type="submit"> Trimite </button>
+			</li>
+		</ul>
+	</form>
+	
+	<footer>
+	<div class="foottext">
+		<p> © Copyright 2022 by League of Rage Team. All rights reserved. </p>
+	</div>
+	</footer>
+	<script src="scripts/main.js"></script>	
+	</body>
+</html>
